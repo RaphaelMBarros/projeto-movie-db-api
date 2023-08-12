@@ -25,6 +25,7 @@ const Home = ({searchValueProp}) => {
   useEffect(() => {
     if (searchValueProp){
       getMoviesSearch(searchValueProp);
+      
     }
     if (searchValueProp === ""){
       getMovies();
